@@ -26,7 +26,7 @@ const About = () => {
           </h2>
 
           <p className="mb-4 leading-relaxed text-gray-600">
-            Prime Agro Rwanda is a pig farm based in Kumuyumbu,
+            Prime Agro Rwanda is a pig farm based at Muyumbu,
             Rwamagana District, dedicated to pig breeding, rearing,
             and supplying pigs and piglets.
           </p>

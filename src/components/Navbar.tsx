@@ -13,13 +13,9 @@ const Navbar = () => {
         aria-hidden="true"
       />
 
-      <a
-        href="#home"
-        className="text-2xl font-bold text-green-800"
-        onClick={() => setMenuOpen(false)}
-      >
-        Prime Agro
-      </a>
+      <a href="#home" onClick={() => setMenuOpen(false)}>
+  <img src="/images/prime-agro-logo.svg" alt="Prime Agro Rwanda" className="h-12" />
+</a>
 
       {/* Desktop navigation */}
       <div className="hidden items-center gap-8 md:flex">

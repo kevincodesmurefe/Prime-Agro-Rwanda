@@ -15,7 +15,7 @@ const Footer = () => {
             href="#home"
             className="inline-block text-2xl font-extrabold tracking-tight"
           >
-            Prime <span className="text-green-400">Agro</span>
+            <img src="/images/prime-agro-logo.svg" alt="Prime Agro Rwanda" className="h-10" />
           </a>
 
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-green-100/80">

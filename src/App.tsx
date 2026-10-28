@@ -16,14 +16,21 @@ function App() {
       <Gallery />
       <WhatWeDo/>
       <VisitBooking />
-      <section id="about" className="px-6 py-20 text-center">
-        <h1 className="text-4xl font-bold text-green-800">
-          Prime Agro Rwanda
-        </h1>
-        <p className="mt-4 text-gray-700">
-          Rooted in Rwanda. Growing with a purpose.
-        </p>
-      </section>
+      <section id="intro" className="px-6 py-20 text-center">
+  <img
+    src="/images/prime-agro-icon.svg"
+    alt="Prime Agro Rwanda logo"
+    className="mx-auto mb-6 h-20 w-20"
+  />
+
+  <h1 className="text-4xl font-bold text-green-800">
+    Prime Agro Rwanda
+  </h1>
+
+  <p className="mt-4 text-gray-700">
+    Rooted in Rwanda. Growing with a purpose.
+  </p>
+</section>
       <Footer/>
     </main>
     
