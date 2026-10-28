@@ -1,36 +1,32 @@
 
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Gallery from "./components/Gallery";
+import WhatWeDo from "./components/WhatWeDo";
+import VisitBooking from "./components/VisitBooking";
+import Footer from "./components/Footer"
+
 function App() {
   return (
-    <main className="min-h-screen bg-stone-50 text-slate-900">
-      <nav className="flex items-center justify-between px-8 py-5">
-        <h1 className="text-xl font-bold text-green-900">
+    <main id="home" className="min-h-screen bg-stone-200 ">
+      <Navbar />
+       <Hero />
+      <About />
+      <Gallery />
+      <WhatWeDo/>
+      <VisitBooking />
+      <section id="about" className="px-6 py-20 text-center">
+        <h1 className="text-4xl font-bold text-green-800">
           Prime Agro Rwanda
         </h1>
-
-        <button className="rounded-lg bg-green-900 px-5 py-3 text-white hover:bg-green-800">
-          Book a Visit
-        </button>
-      </nav>
-
-      <section className="px-8 py-20">
-        <p className="mb-4 font-semibold uppercase tracking-widest text-green-800">
-          Quality Pig Breeding & Rearing
+        <p className="mt-4 text-gray-700">
+          Rooted in Rwanda. Growing with a purpose.
         </p>
-
-        <h2 className="max-w-2xl text-4xl font-bold leading-tight md:text-6xl">
-          Raising Quality. Growing Agriculture.
-        </h2>
-
-        <p className="mt-6 max-w-xl text-lg text-slate-600">
-          Prime Agro Rwanda breeds, raises, and supplies pigs and piglets
-          from Kumuyumbu, Rwamagana District.
-        </p>
-
-        <button className="mt-8 rounded-lg bg-green-900 px-6 py-3 font-semibold text-white hover:bg-green-800">
-          Plan Your Visit
-        </button>
       </section>
+      <Footer/>
     </main>
+    
   );
 }
 
